@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Tela de Dados</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Dados do Veículo</h1>
+    <form>
+      <label for="chassi">Chassi:</label>
+      <input type="number" id="chassi" name="chassi" required>
+
+      <label for="peso-bruto">Peso Bruto Total (kg):</label>
+      <input type="number" id="peso-bruto" name="peso-bruto" required>
+
+      <label for="peso-semi-reboque">Peso do Semi-Reboque (kg):</label>
+      <input type="number" id="peso-semi-reboque" name="peso-semi-reboque" required>
+
+      <label for="equipamentos">Outros Equipamentos (kg):</label>
+      <input type="number" id="equipamentos" name="equipamentos" required>
+
+      <label for="velocidade-ida">Velocidade Ida (km/h):</label>
+      <input type="number" id="velocidade-ida" name="velocidade-ida" required>
+
+      <label for="velocidade-volta">Velocidade Volta (km/h):</label>
+      <input type="number" id="velocidade-volta" name="velocidade-volta" required>
+
+      <label for="quantidade-carga">Quantidade de Carga (mês):</label>
+      <input type="number" id="quantidade-carga" name="quantidade-carga" required>
+
+      <label for="distancia-percorrida-ida">Distância Percorrida ida (km):</label>
+      <input type="number" id="distancia-percorrida-ida" name="distancia-percorrida-ida" required>
+
+      <label for="distancia-percorrida-volta">Distância Percorrida volta (km):</label>
+      <input type="number" id="distancia-percorrida-volta" name="distancia-percorrida-volta" required>
+
+      <label for="tempo-carga-ida">Tempo de carga/descarga ida (m):</label>
+      <input type="number" id="tempo-carga-ida" name="tempo-carga-ida" required>
+
+      <label for="tempo-carga-volta">Tempo de carga/descarga volta (m):</label>
+      <input type="number" id="tempo-carga-volta" name="tempo-carga-volta" required>
+
+      <label for="jornada-util">Jornada útil (h):</label>
+      <input type="number" id="jornada-util" name="jornada-util" required>
+
+      <label for="turnos-diarios">Turnos diarios:</label>
+      <input type="number" id="turnos-diarios" name="turnos-diarios" required>
+
+      <label for="numero-de-dias=ulteis">Numero de dias ulteis (mês):</label>
+      <input type="number" id="numero-de-dias=ulteis" name="numero-de-dias=ulteis" required>
+
+      <label for="paradas-para-manutencao">Paradas para manutenção (mês):</label>
+      <input type="number" id="paradas-para-manutencao" name="paradas-para-manutencao" required>
+
+      <button id="Enviar">Enviar</button>
+      <div id="Resultado"></div>
+
+      <script src="console.js"></script>
+    </form>
+  </div>
+</body>
+</html>
